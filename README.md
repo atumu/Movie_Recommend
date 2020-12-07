@@ -2,7 +2,7 @@
 
 本次项目是基于大数据过滤引擎的电影推荐系统--“懂你”电影网站，包含了爬虫、电影网站（前端和后端）、后台管理系统以及推荐系统（Spark）。
 
-![image](https://github.com/ZzXxL1994/Movie_Recommend/blob/master/zxl_picture/introduce.png)
+![image](zxl_picture/introduce.png)
 
 
 ## 一、爬虫
@@ -14,7 +14,7 @@
 
 **项目架构：**
 
-![image](https://github.com/ZzXxL1994/Movie_Recommend/blob/master/zxl_picture/scrapy.png)
+![image](zxl_picture/scrapy.png)
 
 
 ## 二、电影网站
@@ -26,9 +26,9 @@
 
 **项目架构：**
 
-![image](https://github.com/ZzXxL1994/Movie_Recommend/blob/master/zxl_picture/ssm.png)
+![image](zxl_picture/ssm.png)
 
-![image](https://github.com/ZzXxL1994/Movie_Recommend/blob/master/zxl_picture/web_1.png)
+![image](zxl_picture/web_1.png)
 
 
 ## 三、后台管理系统
@@ -41,7 +41,7 @@
 
 **项目架构：**
 
-![image](https://github.com/ZzXxL1994/Movie_Recommend/blob/master/zxl_picture/admin_1.png)
+![image](zxl_picture/admin_1.png)
 
 
 ## 四、推荐系统（Spark）
@@ -52,11 +52,11 @@
 
 **项目描述：** 通过在电影网站系统埋点，获取到用户的点击事件（如用户喜欢哪部电影或对某部电影的评分）并将信息传至推荐系统，推荐系统根据该信息做出相应的处理，将推荐结果存入到mysql数据库中，web前端通过查询数据库将推荐的电影展示给用户。推荐流程如下：
 
-![image](https://github.com/ZzXxL1994/Movie_Recommend/blob/master/zxl_picture/recommend_1.png)
+![image](zxl_picture/recommend_1.png)
 
 **项目架构：**
 
-![image](https://github.com/ZzXxL1994/Movie_Recommend/blob/master/zxl_picture/recommend_2.png)
+![image](zxl_picture/recommend_2.png)
 
 **具体步骤：**
 
@@ -67,7 +67,7 @@
 - spark3（ip 192.168.13.136），分配6G内存，4核
 
 
-**2.电影数据集，[地址](https://grouplens.org/datasets/movielens/)：** 本次下载的为1m大小的数据集
+**2.电影数据集，[地址](https://grouplens.org/datasets/movielens)** 本次下载的为1m大小的数据集
 
 
 **3.环境的搭建：**
